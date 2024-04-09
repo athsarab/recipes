@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset = "utf-8"/>
+	<link rel="stylesheet" href="./CSS/Header.css">
+    <link rel="stylesheet" href="./CSS/Navbar.css">
+    <link rel="stylesheet" href="./CSS/Background.css">
+    <link rel="stylesheet" href="./CSS/register.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+    <title>Account Creation</title>
+</head>
+	<body>
+	<div class="header">
+          <h1>UniFoodie</h1>
+          <a href="index.php"><img style="float: left;" src=Logo.png></a>
+          <a href="login.php"><button class = "LogOutButton" style="float: right;">Login</button><a/>
+    </div>
+
+    <div class="navbar">
+          <a href="index.php"><button class = "navBarButtons" style="float: left;">Home</button></a>
+          <a href="aboutloggedout.php"><button class = "navBarButtons" style="float: left;">About</button></a>
+    </div>
+	<div class = "register-box">
+			  <h1>Register</h1>
+	<form method='POST' action='account.php'>
+			<div class = "textbox">
+			  <input type="text" placeholder="Username" name="username">
+			</div>
+				<div class = "textbox">
+				<input type="text" placeholder="First name" name="firstname">
+			</div>
+				<div class = "textbox">
+				<input type="text" placeholder="Surname" name="lastname">
+			</div>
+				<div class = "textbox">
+			<input type="text" placeholder="Phone number" name="mobile">
+			</div>
+				<div style = "margin: auto; width: 50%; padding: 10px;">
+  			    <input type="date" name="dob">
+			</div>
+				<div class = "textbox">
+				<input type="password" placeholder="Password" name="password">
+			</div>
+				<div class = "textbox">
+			<input type="password" placeholder="Confirm password" name="confirmpassword">
+			</div>
+			  <p><input type="submit" class="btn" VALUE="Submit Registration Information"></p>
+			</div>
+	</body>
+</html>

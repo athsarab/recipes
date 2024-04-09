@@ -1,0 +1,19 @@
+.description {
+  float: left;
+  width: 50%;
+}
+.picture {
+  float:left;
+  width: 50%;
+
+}
+.btn{
+  border: 2px solid #4CAF50;
+  background-color: #000000;
+  cursor: pointer;
+  color: #4CAF50;
+  height: auto;
+  width: auto;
+  float: left;
+  margin: auto;
+}

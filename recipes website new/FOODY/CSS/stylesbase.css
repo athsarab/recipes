@@ -1,0 +1,133 @@
+body {
+    background: #fff;
+}
+
+body, input, select, textarea {
+    color: #444;
+    font-family: "Raleway", Helvetica, sans-serif;
+    font-size: 13pt;
+    font-weight: 400;
+    line-height: 1.65em;
+}
+
+
+strong, b {
+    color: #474747;
+    font-weight: 700;
+}
+
+em, i {
+    font-style: italic;
+}
+
+p {
+    margin: 0 0 2em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #474747;
+    font-weight: 700;
+    line-height: 1em;
+
+
+}
+
+
+h2 {
+    font-size: 1.75em;
+    line-height: 1.5em;
+}
+
+h3 {
+    font-size: 1.35em;
+    line-height: 1.5em;
+}
+
+
+hr {
+    border: 20px;
+    border-bottom: solid 2px rgba(144, 144, 144, 0.25);
+    margin: 20px 0;
+}
+
+
+/* Button */
+
+
+.button {
+
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    background-color: #333333;
+    border-radius: 50px;
+    border: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+.button:hover {
+    background-color: #51b6d9;
+    text-decoration: none;
+}
+
+
+.button:active {
+    background-color: #2da2ca;
+    text-decoration: none;
+}
+
+
+
+
+/* NAVIGATION */
+
+
+#header {
+
+    font-size: 1vw;
+    height: 6em;
+    width: 100%;
+    z-index: 10000;
+    position: fixed;
+}
+
+.navigation a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navigation {
+    overflow: hidden;
+    background-color: #fff;
+
+}
+
+.navigation a.active {
+    background-color: #117480;
+    color: white;
+}
+
+.navigation .icon {
+    display: none;
+}
+
+
+
+.navigation a:hover {
+    background-color: #ddd;
+    color: white;
+}
+
+
+
+
+

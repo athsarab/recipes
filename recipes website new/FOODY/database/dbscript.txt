@@ -1,0 +1,48 @@
+CREATE TABLE `User_Profile`
+(
+ `username` varchar(25) NOT NULL ,
+ `Forename` tinytext NOT NULL ,
+ `Surname`  tinytext NOT NULL ,
+ `password` tinytext NOT NULL ,
+ `dob`      date,
+ `mobile`   varchar(20),
+
+CONSTRAINT PK_User PRIMARY KEY (`username`));
+
+CREATE TABLE `Recipe`
+(
+ `Recipe_ID`      int AUTO_INCREMENT ,
+ `Recipe_Poster`  varchar(25) NOT NULL ,
+ `Recipe_Name`	  tinytext NOT NULL ,
+ `Description`    tinytext NOT NULL ,
+ `Ingredients`    tinytext NOT NULL ,
+ `Method`	  text NOT NULL ,
+ `Dietary_Info`   tinytext ,
+ `Post_Date`      date NOT NULL ,
+ `Image_Link`	  tinytext,
+ `Recipe_Type` tinytext,
+
+CONSTRAINT PK_Recipe PRIMARY KEY (`Recipe_ID`),
+CONSTRAINT FK_Recipe_User FOREIGN KEY (`Recipe_Poster`) REFERENCES `User_Profile` (`username`));
+
+
+CREATE TABLE `Recipe_Review`
+(
+ `Review_ID`      int AUTO_INCREMENT NOT NULL ,
+ `Recipe_ID`      int NOT NULL ,
+ `Review_Poster`  varchar(25) NOT NULL ,
+ `Recipe_Comment` text ,
+ `Recipe_Rating`  decimal(5,2) NOT NULL ,
+
+PRIMARY KEY PK_Review(`Review_ID`),
+CONSTRAINT FK_Review_Recipe FOREIGN KEY (`Recipe_ID`) REFERENCES `Recipe` (`Recipe_ID`),
+CONSTRAINT FK_Review_User FOREIGN KEY (`Review_Poster`) REFERENCES `User_Profile` (`username`));
+
+CREATE TABLE `User_Favourites`
+(
+ `username`  varchar(25) NOT NULL ,
+ `Recipe_ID` int NOT NULL ,
+
+PRIMARY KEY (`username`, `Recipe_ID`),
+CONSTRAINT FK_Fav_User FOREIGN KEY (`username`) REFERENCES `User_Profile` (`username`),
+CONSTRAINT FK_Fav_Recipe FOREIGN KEY (`Recipe_ID`) REFERENCES `Recipe` (`Recipe_ID`));

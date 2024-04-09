@@ -1,0 +1,114 @@
+insert ignore into User_Profile(username, Forename, Surname, password, dob, mobile)
+VALUES("Dave32", "Dave", "Clark", "password", "2000-01-01", "01254765743"),
+("Lucas24", "Lucas", "Kent", "password", "1995-03-04", "01223445887"),
+("ChefJames", "James", "Edison", "password", "2001-05-12", "021345667");
+
+insert ignore into Recipe(Recipe_Poster, Recipe_Name, Description, Ingredients, Method, Post_Date, Image_Link, Recipe_Type)
+VALUES("Dave32", "Chocolate Cake", "Recipe for a tasty Chocolate Cake", "2 cups margarine.	2	cups sugar.	2	eggs.	5	tbsp cocoa. 2	tsp	salt. 2	cups milk. 2	tsp	baking soda. 2 cups	flour. 2 tsp cloves. 1 tsp vanilla.", "Mix all ingredients together. Pour in 1 cup boiling water. Mix well. Bake about 35 minutes at 375 degrees.", "2021-05-01", "ChocolateCake.jpg", "Food"),
+("Dave32", "Lemon Poppy Cake", "Recipe for a tasty Lemon Poppy Cake", "1	pkg	lemon cake mix. 4	eggs. 1 small pkg	lemon instant pudding. 1 cup water. 2 cups	oil. 4 cups	poppy seeds.", "Mix all for 4 minutes. Bake at 350 degrees for 40 minutes.", "2021-05-03", "LemonCake.jpg", "Food"),
+("Dave32", "Five Bean Salad", "Recipe for a tasty Five Bean Salad", "1	can	green beans. 1 can wax beans.	1	can	kidney beans.	1	can	garbanzo beans.	1	can	bean sprouts.	1 sliced red onion. 2	cups sugar. 2 cup	vinegar. 2 cup	oil.", "Drain beans and stir together. Mix ingredients for dressing. Combine dressing and beans.", "2021-05-04", "BeanSalad.jpg", "Food"),
+("Dave32", "Garden Vegetable Pasta", "Recipe for a tasty Garden Vegetable Pasta", "1 handful asparagus. 1 handful broccoli. 1 handful cauliflower. 1 handful green onions. 1 handful radishes. 1 peeled tomato 1 avacado. 1 handful fresh mushrooms. 1 handful pasta. Italian Dressing.","Cut vegetables into birte size pieces. Cook 5 minutes, until fork tender. Rinse with cold water. Cook and chill pasta. Toss all with Italian Dressing.", "2021-04-25", "GardenSalad.jpg", "Food"),
+("Lucas24", "Chicken Noodle Soup", "Instructions for making Chicken Noodle Soup", "2	cups chopped chicken.	1	large diced potato.	3	large	diced carrots. 2	sliced celery stalks.	1	large	chopped onion.	2	cubes	chicken bouillion. 1 dash	poultry seasoning. 1 large handful	narrow egg noodles."
+, "	Boil chicken, remove from bones and chop. Set aside. Cook potato, carrots, celery, and onion in water to cover. When tender add the chicken, bouillon cubes, poultry seasoning, and salt. Add a large handful of narrow egg noodles. Add more liquid if necessary and cook until noodles are tender.", "2021-04-20", "ChickenNoodleSoup.jpg", "Food"),
+("Lucas24", "Scallops", "Instructions for making Scallops", "1tbsp salt. 1tbsp pepper. half cup soy sauce. half cup rice vinegar. 1 handful garlic. 2tbsp sugar. 1 handful green onions.", "Brown with salt and pepper. Serve over glass noodles, top with chopped green onions and toasted sesame seeds.", "2021-03-21", "Scallops.jpg", "Food"),
+("Lucas24", "Sweet and Sour Pork", "Instructions for making Sweet and Sour Pork", "1 pound pork tenderloin.	2	tsp	salt.	1 1/2	tsp	soy sauce. 1 tbsp	cornstarch.	1	tbsp cold water. 2 cup chicken coasting mix. 2 cup ice water.	1	 egg yolk.", "	Cut pork tenderloin into chunks. Combine salt, soy sauce, cornstarch and cold water. Marinade pork for 30 minutes. Drain pork and dip a few pieces at a time in a batter made from chicken coating mix, water and egg yolk. Brown pork in hot oil in wok about 3 minutes or until brown. Remove with slotted spoon. Stir in green pepper carrot and onion. Combine catsup, brown sugar, granulated sugar, cinnamon, ginger, lemon and pineapple. Cook until sauce thickens. Add pork mixture and serve over rice.", "2021-04-15", "SweetAndSourPork.jpg", "Food"),
+("Lucas24","Oven Fried Chicken", "Instructions for making Oven Fried Chicken", "2 pounds	chicken parts. 1 can cream of mushroom soup. 4 cup milk. 1 tbsp	chopped onion.	1	tbsp chopped parsley.	1	cup	crushed stuffing mix.	2	tbsp butter.", "Mix soup, milk, onion, and parley. Dip chicken in this, then into crumbs. Bake at 400 degrees for 1 hour. Drizzle butter over chicken.", "2021-04-01", "OvenFriedChicken.jpg", "Food"),
+("ChefJames", "Christmas Logs", "How to make Christmas Logs", "8 ounces crushed walnuts. 1 cup pitted dates. 2 1/2 cups flake coconut. 1 cup brown sugar.	2	eggs.", "Preheat oven to 350 degrees. Put walnuts and dates through coarse blade of grinder. Combine with 1 1/2 cup coconut, sugar, and eggs. Mix well. Shape by spoonfuls into 3 inch logs, 3/4 inches wide. Roll in rest of coconut, coating well. Bake 10-12 minutes until golden. Cool. Makes 30 logs.", "2021-03-23", "ChristmasLogs.jpg", "Food"),
+("ChefJames", "Chinese Fried Rice", "How to make Chinese Fried Rice", "2 cup diced ham, pork or chicken. 2 tbsp	oil. 3 ounces	sliced mushrooms (optional). 2 cup chopped green onions. 1 quart cold cooked rice. 2 tbsp soy sauce. 1	egg.", "Saute onion and meat in oil. Add other ingredients except egg. Cook on low heat about 15 to 20 minutes. Beat egg with a tablespoon of milk. Melt butter in skillet, pour in egg and cook until solid. Slice in thin strips to put over the rice as garnish on the platter.", "2021-04-02", "ChineseFriedRice.jpg", "Food"),
+("ChefJames", "Glazed Carrots", "How to make Glazed Carrots", "2 handfulls carrots.	4	cups butter. 2 cups	powdered sugar.	1 cup water. 1 large spoonful orange marmalade.", "Cut carrots in strips or rounds. Boil with butter, sugar and water to almost covered. Cook to fork tender. Stir in orange marmalade.", "2021-04-08", "GlazedCarrots.jpg", "Food"),
+("ChefJames", "Chili Chicken", "How to make Chili Chicken", "12 oz medium noodles. 1 chopped medium	onion. 2 tbsp	melted butter. 3 cans	cream of mushroom soup. 1 jar pimentos. 4 oz chopped green chiles. 1	whole	chicken, cooked and boned, cut into bite-size pieces.	2	cups grated cheddar cheese.", "saute onion in butter, add soups, pimento, chiles, chicken and 1/2 the cheese. Cook noodles until tender. Drain. Stir sauce into noodles. Pour into large baking dish. Add rest of cheese or buttered crumbs. Chill over night. Bake at 350 degrees for 1 hour.", "2021-04-15", "ChilliChicken.jpg", "Food");
+
+insert ignore into Recipe_Review(Recipe_ID, Review_Poster, Recipe_Comment, Recipe_Rating)
+VALUES(1, "ChefJames", "This was a good recipe", 7.5),
+(1, "Lucas24", "I like this recipe", 8.0),
+(2, "ChefJames", "This was an okay recipe", 5.5),
+(2, "Lucas24", "I did not like this recipe", 4.0),
+(3, "ChefJames", "This was not my favourite recipe", 4.5),
+(3, "Lucas24", "This recipe was not to my taste", 3.0),
+(4, "ChefJames", "This was a great recipe", 8.5),
+(4, "Lucas24", "This is amazing", 9.5),
+(5, "ChefJames", "This recipe was alright", 5.0),
+(5, "Dave32", "I love this recipe", 8.0),
+(6, "ChefJames", "This was an okay recipe", 5.5),
+(6, "Dave32", "I do not like this recipe", 3.5),
+(7, "ChefJames", "My family enjoyed this recipe", 8.5),
+(7, "Dave32", "This recipe was not to my friends taste", 2.5),
+(8, "ChefJames", "This was an awesome recipe", 8.5),
+(8, "Dave32", "This is perfect", 9.5),
+(9, "Dave32", "I need to share this with my freinds", 7.5),
+(9, "Lucas24", "I will not be eating this again", 3.0),
+(10, "Dave32", "This was an okay recipe", 5.5),
+(10, "Lucas24", "A great selection of ingredients", 9.0),
+(11, "Dave32", "The flavours paired well together", 7.5),
+(11, "Lucas24", "This recipe was worth trying", 6.0),
+(12, "Dave32", "This was delicious", 8.5),
+(12, "Lucas24", "This is Tasty", 7.5);
+
+
+insert ignore into User_Favourites(username, Recipe_ID)
+VALUES("ChefJames", 1),
+("ChefJames", 8),
+("ChefJames", 4),
+("Lucas24", 1),
+("Lucas24", 10),
+("Lucas24", 4),
+("Dave32", 5),
+("Dave32", 8),
+("Dave32", 10);
+
+
+
+insert ignore into User_Profile(username, Forename, Surname, password, dob, mobile)
+VALUES("Sophie36", "Sophie", "Thomas", "password", "1994-04-04", "99887565443");
+
+insert ignore into Recipe(Recipe_Poster, Recipe_Name, Description, Ingredients, Method, Post_Date, Image_Link, Recipe_Type)
+VALUES("Sophie36", "Espresso martini", "Guide for mixing an Espresso martini", "100g golden Caster Sugar. 2 to 4 ice cubes. 100ml vodka. 50ml freshly brewed espresso coffee. 50ml coffee liqueur.", "Put the caster sugar in a small pan over a medium heat and pour in 50ml water. Stir, and bring to the boil. Turn off the heat and allow the mixture to cool. Once the sugar syrup is cold, pour 1 tbsp into a cocktail shaker along with a handful of ice, the vodka, espresso and coffee liqueur. Shake thoroughly. Strain into the chilled glasses.", "2021-03-17", "EspressoMartini.jpg", "Drink"),
+("Sophie36", "White russian", "Guide for mixing a White russian", "50ml vodka. 2tbsp kahlua. 1tbsp cream.", "Mix together all ingredients. Put  ice cubes in a tumbler and pour the cocktail over the top.", "2021-04-13", "WhiteRussian.jpg", "Drink"),
+("Sophie36", "Cosmopolitan Cocktail", "Guide for mixing a Cosmopolitan Cocktail", "120ml vodka. 60ml orange liqueur. 60ml cranberry juice. juice of 1 lime. Small ice cubes.", "Stir ingredients and some ice and put them in a cocktail shaker. Strain into two chilled martini glasses.", "2021-04-22", "CosmpolitanCocktail.jpg", "Drink"),
+("Sophie36", "Manhattan Cocktail", "Guide for mixing a Manhattan Cocktail", "75ml bourbon. 15ml sweet vermouth. 15ml extra dry vermouth. 2 dashes of Angostura bitters. 5ml cherry eau de vie. 1 strip of orange zest. Ice cubes.", "Pour ingredients except orange zest into a mixing glass. strain into a martini coupe. Garnish with orange zest.", "2021-05-01", "ManhattanCocktail.jpg", "Drink"),
+("Sophie36", "Mojito Cocktail", "Guide for mixing a Mojito Cocktail", "juice of 1 lime. 1 tsp granulated sugar. small handful mint leaves, plus extra sprig to serve. 60ml white rum. soda water, to taste. 1 handful Ice.", "Muddle the lime juice, sugar and mint leaves in a small jug, crushing the mint as you go. Pour into a tall glass and add a handful of ice. Pour over the rum. Top up with soda water, garnish with mint", "2021-05-02", "MojitoCocktail.jpg", "Drink"),
+("Sophie36", "Long Island iced tea", "Guide for mixing Long Island iced tea", "50ml vanilla vodka. 50ml London dry gin. 50ml reposado tequila. 50ml rum. 50ml triple sec. 50-100ml fresh lime juice. Ice. 500ml cola. 2 limes, cut into wedges.", "Pour the vodka, gin, tequila, rum and triple sec into a large jug, add lime juice to taste. Add  cola then stir. Drop in lime wedges. Fill 4 tall glasses with more ice cubes and pour in the iced tea.", "2021-04-16", "LongIslandIcedTea.jpg", "Drink");
+
+insert ignore into Recipe_Review(Recipe_ID, Review_Poster, Recipe_Comment, Recipe_Rating)
+VALUES(13, "ChefJames", "This was a good recipe", 7.5),
+(14, "ChefJames", "This was a bad recipe", 3.5),
+(15, "ChefJames", "This was a great recipe", 8.5),
+(16, "ChefJames", "This was an awesome recipe", 9.0),
+(17, "ChefJames", "This was a poor recipe", 2.5),
+(18, "ChefJames", "This was an okay recipe", 5.5),
+(13, "Dave32", "This was an okay recipe", 5.5),
+(14, "Dave32", "This was a poor recipe", 2.5),
+(15, "Dave32", "This was an awesome recipe", 9.5),
+(16, "Dave32", "This was a great recipe", 8.0),
+(17, "Dave32", "This was a bad recipe", 3.0),
+(18, "Dave32", "This was a good recipe", 6.5),
+(13, "Lucas24", "I enjoyed this recipe", 7.0),
+(14, "Lucas24", "I enjoyed this recipe a lot", 8.5),
+(15, "Lucas24", "I did not enjoy this recipe", 4.5),
+(16, "Lucas24", "I like this recipe", 6.0),
+(17, "Lucas24", "I love this recipe", 9.5),
+(18, "Lucas24", "I do not like this recipe", 2.0),
+(1, "Sophie36", "we liked this recipe", 7.0),
+(2, "Sophie36", "we loved this recipe", 8.5),
+(3, "Sophie36", "this recipe is very tasty", 8.0),
+(4, "Sophie36", "this is okay", 5.0),
+(5, "Sophie36", "i vcannot wait to try this again", 9.0),
+(6, "Sophie36", "family enjoyed this", 7.0),
+(7, "Sophie36", "this recipe is perfection", 10.0),
+(8, "Sophie36", "it was okay, would not have it again", 4.5),
+(9, "Sophie36", "this is not my favourite taste ", 5.5),
+(10, "Sophie36", "i did not enjoy this", 2.5),
+(11, "Sophie36", "not for me", 3.0),
+(12, "Sophie36", "i loved it", 8.5);
+
+insert ignore into User_Favourites(username, Recipe_ID)
+VALUES("Sophie36", 7),
+("Sophie36", 12),
+("Sophie36", 5),
+("Sophie36", 2),
+("Lucas24", 14),
+("Lucas24", 17),
+("Dave32", 15),
+("Dave32", 16),
+("ChefJames", 16),
+("ChefJames", 15);

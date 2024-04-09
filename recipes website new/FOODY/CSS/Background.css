@@ -1,0 +1,112 @@
+.background {
+  padding: 1em;
+  background: #000000;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.background img {
+  width: 872px;
+  height: 660px;
+}
+
+body {
+  color: white;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+
+
+
+.container {
+  background: #000000;
+  color: white;
+  width: 872px;
+  height: 670px;
+  text-align: center;
+  line-height: 50px;
+
+
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+input {
+  display: inline-block;
+  float: left;
+}
+
+
+
+textarea {
+  background-color: black;
+  color: white;
+}
+
+.bottom-text {
+  color: white;
+}
+
+h2 {
+  padding-top: 180px;
+  font-size: 60px;
+  color: green;
+}
+
+select {
+  margin-left: 39%;
+  background-color: black;
+  color: white;
+}
+
+.image {
+  height: 25px;
+}
+
+.searchbox {
+
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  background-color: black;
+  color: white;
+  height: 20px;
+}
+
+#ingredientsTextBox {
+  height: 200px;
+}
+
+
+label {
+  padding-right: 20px;
+}
+
+button {
+  height: 25px;
+  width: 10x;
+  color: white;
+  background-color: black;
+}
+
+.searchform {
+  margin-left: 60%;
+
+}
+
+.recipeContainer {
+  margin-top: 50px;
+  border-top: 1px solid white;
+}

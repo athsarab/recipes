@@ -1,0 +1,71 @@
+.header {
+    text-align: justify;
+    padding: 1em;
+    background: #000000;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+
+.header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.header h1,
+header a  {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header h1 {
+    width: 50%;
+    text-align: left;
+    color: white;
+    padding-top: 0.5em;
+    line-height: 20px;
+}
+
+.header a {
+    padding-top: 1em;
+}
+
+img {
+  height: 60px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.LogOutButton {
+  margin-top: 30px;
+  border: 2px solid #4CAF50;
+  background-color: #000000;
+  cursor: pointer;
+  color: #4CAF50;
+  height: 40px;
+  width: 60px;
+}
+
+.RegisterButton {
+  margin-top: 30px;
+  margin-right: 10px;
+  border: 2px solid #4CAF50;
+  background-color: #000000;
+  cursor: pointer;
+  color: #4CAF50;
+  height: 40px;
+  width: 65px;
+}
+
+.ForgottenPasswordButton {
+  margin-top: 30px;
+  border: 2px solid #4CAF50;
+  background-color: #000000;
+  cursor: pointer;
+  color: #4CAF50;
+  height: 40px;
+  width: 150px;
+}

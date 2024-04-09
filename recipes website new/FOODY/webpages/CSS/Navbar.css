@@ -1,0 +1,43 @@
+.navbar {
+    text-align: justify;
+    padding: 1em;
+    background: #414141;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+
+
+.navbar::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+
+.navbar h1,
+header a  {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.navbar h1 {
+    width: 50%;
+    text-align: left;
+    color: white;
+    padding-top: 0.5em;
+    line-height: 5px;
+}
+
+.navbar a {
+    padding-top: 1em;
+}
+
+.navBarButtons {
+  border: none;
+  background-color: inherit;
+  font-size: 16px;
+  padding-top: 10px;
+  cursor: pointer;
+  color: white;
+  display: inline-block;
+}
